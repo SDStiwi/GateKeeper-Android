@@ -1,0 +1,108 @@
+<resources>
+
+
+    <style name="TimetableCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/cell_border</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+        <style name="ActiveItemTextAppearance">
+            <item name="android:textColor">@color/blue</item>  <!-- Customize color -->
+        </style>
+
+        <style name="InactiveItemTextAppearance">
+            <item name="android:textColor">@color/gray</item>  <!-- Customize color -->
+        </style>
+
+        <style name="CellHeader">
+            <item name="android:layout_height">45dp</item>
+            <item name="android:layout_width">60dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:background">@drawable/cell_border_header</item>
+            <item name="android:fontFamily">@font/popins</item>
+            <item name="android:padding">8dp</item>
+        </style>
+
+        <style name="DayCell">
+            <item name="android:layout_height">65dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:background">@drawable/cell_day</item>
+            <item name="android:fontFamily">@font/popins</item>
+            <item name="android:padding">8dp</item>
+        </style>
+
+        <style name="ClassCell">
+            <item name="android:layout_height">65dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textSize">12sp</item>
+            <item name="android:textColor">@color/black</item>
+            <item name="android:background">@drawable/cell_border</item>
+            <item name="android:fontFamily">@font/popins</item>
+            <item name="android:padding">8dp</item>
+        </style>
+
+
+    <!-- Enhanced Cell Header Style -->
+    <style name="EnhancedCellHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/popins</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <!-- Enhanced Day Cell Style -->
+    <style name="EnhancedDayCell">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#1E3A8A</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/popins</item>
+        <item name="android:background">@drawable/day_cell_bg</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- Enhanced Class Cell Style -->
+    <style name="EnhancedClassCell">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#374151</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/popins</item>
+        <item name="android:background">@drawable/timetable_cell_background</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>

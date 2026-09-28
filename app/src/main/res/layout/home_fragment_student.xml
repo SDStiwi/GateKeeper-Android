@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#FFFFFF" android:fillViewport="true">
+<LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp" android:paddingBottom="28dp">
+    <LinearLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="18dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STUDENT" android:textSize="11sp" android:textStyle="bold" android:textColor="#2563EB" android:letterSpacing="0.16"/>
+            <TextView android:id="@+id/txtName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Alice Smith" android:textSize="27sp" android:textStyle="bold" android:textColor="#172033" android:fontFamily="@font/poppins_bold" android:layout_marginTop="3dp"/>
+            <TextView android:id="@+id/txtDepartment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Computer Science" android:textSize="13sp" android:textColor="#64748B" android:layout_marginTop="2dp"/>
+            <TextView android:id="@+id/txtEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="student1@example.com" android:textSize="11sp" android:textColor="#94A3B8" android:layout_marginTop="1dp"/>
+        </LinearLayout>
+        <TextView android:layout_width="52dp" android:layout_height="52dp" android:gravity="center" android:text="AS" android:textSize="15sp" android:textStyle="bold" android:textColor="#173B73" android:background="@drawable/pill_blue"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="20dp" app:cardElevation="0dp" android:layout_marginBottom="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:background="#F7FAFF">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TODAY" android:textSize="10sp" android:textStyle="bold" android:textColor="#2563EB" android:letterSpacing="0.10"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Your classes at a glance" android:textSize="20sp" android:textStyle="bold" android:textColor="#172033" android:fontFamily="@font/poppins_bold" android:layout_marginTop="4dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Check today's schedule, rooms and attendance updates." android:textSize="12sp" android:textColor="#64748B" android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TODAY'S CLASSES" android:textSize="11sp" android:textStyle="bold" android:textColor="#173B73" android:letterSpacing="0.10" android:layout_marginBottom="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewSchedule" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:clipToPadding="false"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ROOMS" android:textSize="11sp" android:textStyle="bold" android:textColor="#173B73" android:letterSpacing="0.10" android:layout_marginTop="20dp" android:layout_marginBottom="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewRooms" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:clipToPadding="false"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RECENT ACTIVITY" android:textSize="11sp" android:textStyle="bold" android:textColor="#173B73" android:letterSpacing="0.10" android:layout_marginTop="20dp" android:layout_marginBottom="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewNotifications" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:clipToPadding="false" android:layout_marginBottom="12dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnEnroll" android:layout_width="match_parent" android:layout_height="54dp" android:text="Browse available classes" android:textAllCaps="false" android:textSize="14sp" android:textStyle="bold" android:textColor="#FFFFFF" android:background="@drawable/button_primary" app:cornerRadius="14dp"/>
+</LinearLayout></ScrollView>

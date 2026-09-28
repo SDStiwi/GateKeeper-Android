@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home3"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_timetable"
+        android:icon="@drawable/schedule"
+        android:title="Timetable" />
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/notifi"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_attendance"
+        android:icon="@drawable/qr"
+        android:title="Qr Code" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+
+
+</menu>

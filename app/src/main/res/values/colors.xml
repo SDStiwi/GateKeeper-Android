@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#173B73</color>
+    <color name="secondary">#2563EB</color>
+    <color name="primary_color">#173B73</color>
+    <color name="primary_variant">#0F2D5A</color>
+    <color name="secondary_color">#2563EB</color>
+    <color name="dark_blue">#102A56</color>
+    <color name="blue">#173B73</color>
+    <color name="nav_selected">#173B73</color>
+    <color name="nav_unselected">#94A3B8</color>
+    <color name="light_blue">#EAF2FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#0F172A</color>
+    <color name="gray">#FFFFFF</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="surface_variant">#FFFFFF</color>
+    <color name="text_primary">#172033</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="border">#DCE5F0</color>
+    <color name="border_strong">#C7D5E6</color>
+    <color name="success">#15803D</color>
+    <color name="success_bg">#ECFDF3</color>
+    <color name="warning">#B45309</color>
+    <color name="warning_bg">#FFF7ED</color>
+    <color name="danger">#B91C1C</color>
+    <color name="danger_bg">#FEF2F2</color>
+    <color name="enrollmentRequestBg">#FFF7ED</color>
+    <color name="enrollmentRequestText">#9A3412</color>
+    <color name="replyBg">#EFF6FF</color>
+    <color name="replyText">#1D4ED8</color>
+    <color name="generalNotificationBg">#ECFDF3</color>
+    <color name="generalNotificationText">#166534</color>
+    <color name="defaultNotificationBg">#FFFFFF</color>
+    <color name="defaultNotificationText">#172033</color>
+    <color name="class_background">#FFFFFF</color>
+    <color name="math_color">#EF4444</color>
+    <color name="physics_color">#3B82F6</color>
+    <color name="chemistry_color">#10B981</color>
+    <color name="english_color">#F59E0B</color>
+    <color name="biology_color">#8B5CF6</color>
+    <color name="cs_color">#06B6D4</color>
+    <color name="history_color">#F97316</color>
+    <color name="art_color">#EC4899</color>
+    <color name="geography_color">#84CC16</color>
+    <color name="music_color">#A855F7</color>
+    <color name="pe_color">#22C55E</color>
+    <color name="study_color">#64748B</color>
+    <color name="drama_color">#DC2626</color>
+    <color name="break_color">#FFF7ED</color>
+    <color name="break_text">#92400E</color>
+    <color name="purple_200">#3F51B5</color><color name="purple_500">#3F51B5</color><color name="purple_700">#3F51B5</color>
+    <color name="teal_200">#03DAC5</color><color name="teal_700">#018786</color>
+</resources>

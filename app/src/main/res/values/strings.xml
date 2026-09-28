@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GATEKEEPER</string>
+    <string-array name="speciality_array">
+        <item>RSID</item>
+        <item>SID</item>
+        <item>IAA</item>
+    </string-array>
+
+    <string-array name="department_array">
+        <item>Informatics</item>
+        <item>Mathematics</item>
+    </string-array>
+</resources>
